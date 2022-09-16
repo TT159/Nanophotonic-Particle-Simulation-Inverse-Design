@@ -1,0 +1,18 @@
+app-version==0.2.1
+版本不存在了，直接pip requirements不下来，
+单独pip了app-version-1.0.1。将requirements文件里的app-version删除了。
+
+aux==0.0.2
+The "aux" directory name is somehow forbidden under Windows, thus giving the third error. 
+To solve this, the codebase should have the folder name changed.
+还未装
+
+blocks==0.2.0
+pip不下来. Blocks isn't listed yet on the Python Package Index (PyPI).
+blocks发布的github源，但是根据他的指令也下载不了。。。。
+https://github.com/mila-iqia/blocks/blob/master/docs/setup.rst
+还未装
+
+bonjour-py==0.3
+pip不下来。PYPI上只有bonjour，而且版本号是0.0.3
+直接装了bonjour
